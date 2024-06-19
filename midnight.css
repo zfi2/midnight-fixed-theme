@@ -716,12 +716,6 @@ button.button_dd4f85 /* small buttons */,
 	background: var(--bg-3);
 	border-radius: 50%;
 }
-/* custom dm button background instead of icon */
-/* .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background: url('https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png');
-	background-color: transparent !important;
-	background-size: cover;
-} */
 
 /* vencord spotify player support */
 #vc-spotify-player {
