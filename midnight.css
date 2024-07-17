@@ -9,36 +9,67 @@
 	--corner-text: 'Midnight';
 
 	/* color of status indicators and window controls */
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
 
+	--online-indicator: hsl(0, 100%, 50%); /* change to bright red */
+	--dnd-indicator: hsl(0, 100%, 50%); /* change to bright red */
+	--idle-indicator: hsl(0, 100%, 50%); /* change to bright red */
+	--streaming-indicator: hsl(0, 100%, 50%); /* change to bright red */
+	
 	/* accent colors */
-	--accent-1: hsl(190, 70%, 60%); /* links */
-	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
-	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
-	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
-	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
-	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
-
+	--accent-1: hsl(0, 100%, 50%); /* links */
+	--accent-2: hsl(0, 100%, 48%); /* general unread/mention elements */
+	--accent-3: hsl(0, 100%, 42%); /* accent buttons */
+	--accent-4: hsl(0, 100%, 36%); /* accent buttons when hovered */
+	--accent-5: hsl(0, 100%, 30%); /* accent buttons when clicked */
+	--mention: hsla(0, 100%, 50%, 0.1); /* mentions & mention messages */
+	--mention-hover: hsla(0, 100%, 50%, 0.05); /* mentions & mention messages when hovered */
+	
 	/* text colors */
 	--text-0: white; /* text on colored elements */
-	--text-1: var(--text-2); /* other normally white text */
-	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
-	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
-
+	--text-1: hsl(0, 100%, 50%); /* other normally white text */
+	--text-2: hsl(0, 100%, 50%); /* headings and important text */
+	--text-3: hsl(0, 100%, 50%); /* normal text */
+	--text-4: hsl(0, 100%, 50%); /* icon buttons and channels */
+	--text-5: hsl(0, 100%, 50%); /* muted channels/chats and timestamps */
+	
 	/* background and dark colors */
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
-	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: hsl(220, 15%, 10%); /* main background color */
-	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+	--bg-1: hsl(0, 100%, 50%); /* dark buttons when clicked */
+	--bg-2: hsl(0, 100%, 50%); /* dark buttons */
+	--bg-3: hsl(0, 100%, 50%); /* spacing, secondary elements */
+	--bg-4: hsl(0, 100%, 50%); /* main background color */
+	--hover: hsla(0, 100%, 50%, 0.1); /* channels and buttons when hovered */
+	--active: hsla(0, 100%, 50%, 0.2); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(0, 100%, 50%, 0.1); /* messages when hovered */
+
+	/*
+	--online-indicator: var(--accent-2);
+	--dnd-indicator: hsl(340, 60%, 60%); 
+	--idle-indicator: hsl(50, 60%, 60%);
+	--streaming-indicator: hsl(260, 60%, 60%);
+
+	--accent-1: hsl(190, 70%, 60%); 
+	--accent-2: hsl(190, 70%, 48%); 
+	--accent-3: hsl(190, 70%, 42%); 
+	--accent-4: hsl(190, 70%, 36%);
+	--accent-5: hsl(190, 70%, 30%);
+	--mention: hsla(190, 80%, 52%, 0.1);
+	--mention-hover: hsla(190, 80%, 52%, 0.05); 
+
+	--text-0: white; 
+	--text-1: var(--text-2); 
+	--text-2: hsl(220, 25%, 70%); 
+	--text-3: hsl(220, 15%, 60%); 
+	--text-4: hsl(220, 15%, 40%); 
+	--text-5: hsl(220, 15%, 25%); 
+
+	--bg-1: hsl(220, 15%, 20%);
+	--bg-2: hsl(220, 15%, 16%); 
+	--bg-3: hsl(220, 15%, 13%); 
+	--bg-4: hsl(220, 15%, 10%);
+	--hover: hsla(230, 20%, 40%, 0.1); 
+	--active: hsla(220, 20%, 40%, 0.2); 
+	--message-hover: hsla(220, 0%, 0%, 0.1);
+	*/
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
